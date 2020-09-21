@@ -1,4 +1,4 @@
-package nl.rug.controllers;
+package nl.rug.importing;
 
 import nl.rug.domain.Instrument;
 

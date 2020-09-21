@@ -6,14 +6,6 @@ public class Instrument {
     private int size;
     private double weight;
 
-    @Override
-    public String toString() {
-        return "Instrument{" +
-                "size=" + size +
-                ", weight=" + weight +
-                '}';
-    }
-
     public double getPrice() {
         return price;
     }
