@@ -8,5 +8,11 @@ public class InstrumentController {
 
     String name;
 
+    public void foo() {
+
+
+        String local = name;
+    }
+
 
 }
