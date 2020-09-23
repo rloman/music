@@ -4,6 +4,7 @@ public class App {
 
     public static void main(String[] args) {
 
+
         {
             int[] fib = new int[6];
             fib[0] = 2;
