@@ -15,5 +15,24 @@ public class App {
         String nogEenVoorbeeld = c.toString();
 
         System.out.println(veter);
+
+        SnaarInstrument piano = new SnaarInstrument();
+        piano.setAantalSnaren(80);
+        System.out.println(piano.getPrice());
+
+        System.out.println(piano.getAantalSnaren());
+
+        Instrument m = new Instrument();
+        System.out.println(m.toString());
+        System.out.println(m.getClass().getSimpleName());
+
+        if(piano.equals(m)) {
+
+        }
+
+        int n = 15;
+
+        char c2 = 'c';
+        System.out.println(c2);
     }
 }
