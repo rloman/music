@@ -16,13 +16,13 @@ public class App {
 
         System.out.println(veter);
 
-        SnaarInstrument piano = new SnaarInstrument();
+        SnaarInstrument piano = new SnaarInstrument(3.5);
         piano.setAantalSnaren(80);
         System.out.println(piano.getPrice());
 
         System.out.println(piano.getAantalSnaren());
 
-        Instrument m = new Instrument();
+        Instrument m = new SnaarInstrument(3.5);
         System.out.println(m.toString());
         System.out.println(m.getClass().getSimpleName());
 

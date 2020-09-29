@@ -1,6 +1,7 @@
 package nl.rug.arrays.multi;
 
 import nl.rug.domain.Instrument;
+import nl.rug.domain.SnaarInstrument;
 
 public class App {
 
@@ -11,9 +12,9 @@ public class App {
 
         Instrument[][] instruments = new Instrument[4][];
 
-        Instrument harp = new Instrument();
+        SnaarInstrument harp = new SnaarInstrument(3.5);
         instruments[0] = new Instrument[3];
-        instruments[0][0] = new Instrument();
+        instruments[0][0] = new SnaarInstrument(3.5);
         instruments[0][1] = harp;
 
 

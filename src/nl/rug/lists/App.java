@@ -1,6 +1,7 @@
 package nl.rug.lists;
 
 import nl.rug.domain.Instrument;
+import nl.rug.domain.SnaarInstrument;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,9 +12,9 @@ public class App {
     public static void main(String[] args) {
         ArrayList<Instrument> instruments = new ArrayList<>();
 
-        instruments.add(new Instrument());
-        instruments.add(new Instrument());
-        instruments.add(new Instrument());
+        instruments.add(new SnaarInstrument(3.4));
+        instruments.add(new SnaarInstrument(3.5));
+        instruments.add(new SnaarInstrument(5));
 
         System.out.println(instruments.size());
 

@@ -7,6 +7,17 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
+class Testje {
+
+    int foo(byte b) {
+        return 3;
+    }
+
+    String foo(short s) {
+        return "noot";
+    }
+}
+
 public class App {
 
     public static void main(String[] args) {
@@ -50,8 +61,7 @@ public class App {
 
         System.out.println(numbers);
 
-
-
+        numbers.stream().filter(n -> n >5).forEach(System.out::println);
 
     }
 }

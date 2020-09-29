@@ -1,4 +1,5 @@
 import nl.rug.domain.Instrument;
+import nl.rug.domain.SnaarInstrument;
 
 public class App {
 
@@ -6,7 +7,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        Instrument mijnViool = new Instrument();
+        SnaarInstrument mijnViool = new SnaarInstrument(5.5);
 
         mijnViool.setPrice(14.95);
 

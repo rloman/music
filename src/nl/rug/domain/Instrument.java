@@ -1,10 +1,15 @@
 package nl.rug.domain;
 
-public class Instrument {
+// je kunt geen new Instrument(); meer doen want Instrument is nu een abstract class
+public abstract class Instrument {
 
     private double price; // kan ook float zijn maar float niet gebruiken
     private int size;
     private double weight;
+
+    public Instrument(double price) {
+        // hier staat nog steeds super();
+    }
 
     public double getPrice() {
         return price;
@@ -30,6 +35,7 @@ public class Instrument {
         this.weight = weight;
     }
 
-    void play() {
-    }
+    public abstract void play();
+
+
 }
