@@ -12,7 +12,7 @@ public class SnaarInstrument extends Instrument {
 
     @Override
     public void play() {
-        System.out.println("Playing snaarinstrument");
+        System.out.println("Playing ... snaarinstrument ... ");
 
     }
 

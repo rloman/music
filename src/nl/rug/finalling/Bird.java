@@ -16,17 +16,14 @@ public class Bird {
     }
 }
 
-final class Pinguin extends  Bird {
+
+class Pinguin extends Bird {
 
     public Pinguin(String name) {
         super(name);
     }
 
-
-
     /*
-
-
     @Override // vout
     public boolean hasFeathers() {
         return false;
