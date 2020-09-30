@@ -10,9 +10,20 @@ public class App {
 
     public static void main(String[] args) {
 
-        Viool v = new Viool(3.5);
+        Object v = new Viool(3.5);
+
+        //  <= v is hier een Object tijdens compile time
+        // v is hier een Viool at runtime
+
+        //
+        Viool v2 = new Viool(3);
+
+
 
         SnaarInstrument viool = new Viool(555);
+
+
+
         viool.play();
 //        viool.vout(); // vout
 

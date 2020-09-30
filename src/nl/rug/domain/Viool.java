@@ -11,6 +11,11 @@ public class Viool extends SnaarInstrument {
         super(price);
     }
 
+    public void playVioline() {
+        System.out.println("Playing violine ... ");
+
+    }
+
     public String getName() {
         return name;
     }
