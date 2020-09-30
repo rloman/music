@@ -2,7 +2,7 @@ package nl.rug.exceptions.demo;
 
 public class AppParseInt {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(AppParseInt.class);
+//    private static final Logger LOGGER = LoggerFactory.getLogger(AppParseInt.class);
 
     public static void main(String[] args) {
 
@@ -28,7 +28,7 @@ public class AppParseInt {
             return true;
         }
         catch(NumberFormatException nfe) {
-            LOGGER.debug("Dat is geen geldig getal"+input);
+//            LOGGER.debug("Dat is geen geldig getal"+input);
             return false;
         }
     }
