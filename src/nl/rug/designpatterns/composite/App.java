@@ -8,9 +8,9 @@ public class App {
         tree.add(8);
         tree.add(6);
 
-
         tree.print();
+        System.out.println();
 
-
+        System.out.println(tree.getSize());
     }
 }

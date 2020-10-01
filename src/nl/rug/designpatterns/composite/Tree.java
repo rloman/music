@@ -26,10 +26,13 @@ public class Tree {
 
     // exercise
     // add
-
     public int getSize() {
-
-        return 333;
+        if(value == null) {
+            return 0;
+        }
+        else {
+            return left.getSize()+1+right.getSize();
+        }
     }
 
 
