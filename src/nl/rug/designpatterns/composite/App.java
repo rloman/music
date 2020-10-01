@@ -10,6 +10,9 @@ public class App {
 
 
         tree.print();
+        System.out.println();
+
+        System.out.println(tree.getSize());
 
 
     }
